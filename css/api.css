@@ -1,0 +1,18 @@
+.hidden {
+    display: none; 
+}
+
+h2{
+    color:white;
+}
+
+section{
+    background-color:black;
+}
+
+.resultLi{
+      list-style:none;
+      color: blue;
+      background-color: aliceblue;
+      margin:6px;
+  }

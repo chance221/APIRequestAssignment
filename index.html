@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RequestWithHeadersAssignment</title>
+    <link rel="stylesheet" href="css/api.css"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>See GitHub Repros</h1>
+        <form id ="js-form">
+            <label for="search-name">Enter Name of Github handle you are looking for here</label><br><br>
+            <input type="text" name="search-name" id="js-userName" placeholder="Enter GitHub User Name" required><br><br>
+
+            <input type="submit" value="See Results">
+        </form>
+        <p id="je-error-message" class="error-message"></p>
+        <section id="results" class="hidden">
+
+        <h2>Search Results</h2>
+            <ul id='results-list'>
+                
+            </ul>
+        </section>
+    </div>
+    <script src="js/GitHubRequest.js"></script>    
+</body>
+</html>
